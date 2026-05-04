@@ -19,7 +19,7 @@ const {
 const express = require('express');
 
 // ================= CONFIG =================
-const TOKEN = "MTUwMDI2MDQxMjEwNzUyNjI3NA.GNU7LG.3T3AEiPxTVvxyHVlrhIU2F8AcNA-q3JZlAuM80";
+const TOKEN = process.env.TOKEN;
 const CLIENT_ID = "1500260412107526274";
 const GUILD_ID = "1500238651286618122";
 const CHANNEL_ID = "1500593362787500243";
